@@ -1,0 +1,95 @@
+html *
+{
+   font-family:Trebuchet MS !important;
+}
+
+.reg{
+   margin-top: 50px;
+   margin-bottom: auto;
+   margin-left:400px;
+   max-width: 500px;
+   
+   object-position: center;
+}
+
+.btn_link{
+   border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+  text-decoration: none;
+}
+ 
+ 
+.btn {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 18px;
+  padding: 20px;
+  width: 180px;
+  transition: all 0.5s;
+  cursor: pointer;
+  
+   height: 60px;
+}
+
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+
+
+input{
+    height: 35px;
+    width: 300px;
+    margin-top: 20px;
+    border: none;
+    border-bottom: 2px solid red;
+
+}
+
+.about{
+         margin-top: 20px;
+        text-align: center;
+        width: 400px;
+        margin-left: 500px;
+    }
+    img{
+        height: 350px;
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(1 , 1, 1,1);
+        border-radius: 5%; 
+        margin-left: 10px;
+    }
